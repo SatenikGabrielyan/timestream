@@ -64,6 +64,4 @@ timeTransform.on("data", (chunk) => {
     process.stdout.write(chunk)
 })
 
-timeWritable.on("finish", () => {
-    console.log("Stream processing completed")
-})
+console.log("Time logger started")
